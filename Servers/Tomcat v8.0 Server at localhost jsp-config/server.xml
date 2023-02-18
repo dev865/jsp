@@ -123,7 +123,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 		<!-- Context 태그를 만들어서 path 지정-->	
-      <Context docBase="02_jsp_jstl_mysql_dbcp_session" path="/" reloadable="true" source="org.eclipse.jst.jee.server:02_jsp_jstl_mysql_dbcp_session"/><Context docBase="02_jsp_jstl_mysql_dbcp_session" path="/02_jsp_jstl_mysql_dbcp" reloadable="true" source="org.eclipse.jst.jee.server:02_jsp_jstl_mysql_dbcp_session"/></Host>
+      <Context docBase="04_final_jsp_crud" path="/" reloadable="true" source="org.eclipse.jst.jee.server:04_final_jsp_crud"/></Host>
     </Engine>
   </Service>
 </Server>
