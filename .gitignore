@@ -1,6 +1,6 @@
 *.DS_Store
 bin/
-/classes/
+classes/
 .classpath
 .gitignore.swp
 *.class
