@@ -42,7 +42,7 @@ public class ProductCtrl extends HttpServlet {
 			break;
 		case "insert":
 			
-			isUp = 
+			isUp = 1;
 			break;
 		default :
 			break;
